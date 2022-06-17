@@ -10,14 +10,65 @@
 }
 
 /*Font Imports End*/
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 html,
 body {
     background-color: black;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .navbar {
     width: 100%;
     height: 75px;
+    background-color: grey;
+}
+
+.navbar h3 {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    color: white;
+}
+
+.navbar-links {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/cody_large_bg.jpg');
+    /*background-image: url("portfolio_2022\imgs\cody_large_bg.jpg");*/
+    background-size: contain;
+}
+
+.hero h1 {
+    font-size: 32px;
 }
