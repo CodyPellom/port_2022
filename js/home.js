@@ -4,6 +4,8 @@ let introSec = document.getElementById('intro-section');
 let introHeader = document.getElementById('intro-header');
 let introAnimatedText = document.getElementById('intro-header-animated-text');
 let introDescrip = document.getElementById('intro-descrip-text');
+let introImgSlider = document.getElementById('intro-image-changer');
+
 /*timeline example
 var introAnimation = anime.timeline({
     easing: 'easeOutExpo',
