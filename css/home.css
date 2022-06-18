@@ -65,6 +65,7 @@ body {
     position: absolute;
     right: 0;
     margin-right: 20px;
+    cursor: unset;
 }
 
 .navbar-links a {
@@ -119,7 +120,7 @@ body {
 
 .intro-section #intro-descrip-text {
     width: 75%;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -162,4 +163,35 @@ body {
 
 #introImg6 {
     opacity: 0;
+}
+
+/*-----------*/
+
+.work-experience {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.work-experience .weSectionBlock {
+    height: 325px;
+    width: 325px;
+    border: solid 2px red;
+    background-color: darkgray;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.work-experience .weSectionBlock h1 {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.work-experience .weSectionBlock p {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
 }
