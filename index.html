@@ -7,10 +7,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/home.css">
     <script src="./js/anime.js"></script>
+    <script src="./js/type.js"></script>
 </head>
 <body>
     <section class="navbar flex-row">
-        <h3 class="major-mono neon">cody_pellom</h3>
+        <h3 class="major-mono neon" id="navbar-header">cody_pellom</h3>
         <div class="navbar-links">
             <a href="#" class="navbar-link mono">about</a>
             <a href="#" class="navbar-link mono">work</a>
@@ -19,8 +20,18 @@
     </section>
     <!--------->
     <section class="hero flex-column">
-        <h1 class="major-mono" id="hero-header">Web Developer && Software Engineer</h1>
+        <!--<h1 class="major-mono" id="hero-header">Web Developer && Software Engineer</h1>-->
+    </section>
+    <!--------->
+    <section class="intro-section flex-column" id="intro-section">
+        <h1 class="mono" id="intro-header"><span id="intro-header-animated-text"></span></h1>
+        <p class="mono" id="intro-descrip-text">my name is cody pellom. i am a professional web developer and software engineer who specializes in 
+            cms development. i have been a developer for over 5 years and have worked with companies such as HPE,
+            CPI and Applied Systems. by participating in and leading several cms overhauls, my work has been 
+            seen by millions of different people. i enjoy creating immersive and animated user experiences.  
+        </p>
     </section>
     <script src="./js/home.js"></script>
+    
 </body>
 </html>
