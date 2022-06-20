@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/win95.css">
     <link rel="stylesheet" href="./css/home.css">
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="./js/anime.js"></script>
     <script src="./js/type.js"></script>
 </head>
@@ -42,24 +46,55 @@
     </section>
     <!---------->
     <section class="work-experience flex-row">
-        <div class="weSectionBlock" id="we-section-1">
-            <h1 class="major-mono">Applied Systems</h1>
-            <p class="mono">Overhauled the CMS system to Episerver </p>
-            <p class="mono">Development was based in .NET MVC</p>
-            <p class="mono">Created reusable blocks for content editors</p>
+        <div class="card mb-4" id="applied-card">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Applied Systems</h4>
+            </div>
+            <div class="card-body">
+                <img src="./imgs/applied-logo.PNG" alt="" class="we-section-1-img">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Overhauled the CMS system to Episerver</li>
+                    <li>Developed new features by utilizing .NET MVC practices </li>
+                    <li>Created reusable blocks for content editors and campaigns</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary" id="we-next-1">Next</button>
+            </div>
         </div>
-        <div class="weSectionBlock" id="we-section-2">
-            <h1 class="major-mono">HPE</h1>
-            <p class="mono">Monitored internal and external SSL certificates</p>
-            <p class="mono">Checked code for security vulnerabilities</p>
-            <p class="mono">Reported to the head of cyber-security in Alpharetta, GA</p>
+
+        <div class="card mb-4" id="hpe-card">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Hewlett Packard Enterprise</h4>
+            </div>
+            <div class="card-body">
+                <img src="./imgs/hpe-logo.png" alt="" class="we-section-2-img">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Monitored SSL certificates</li>
+                    <li>Documented and reported security vulnerabilities</li>
+                    <li>Reported to the head of cyber-security in Alpharetta, GA</li>
+                    <li>Administrative work and project management</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary" id="we-next-2">Next</button>
+            </div>
         </div>
-        <div class="weSectionBlock" id="we-section-3">
-            <h1 class="major-mono">Crisis Prevention Institute</h1>
-            <p class="mono">Responsible for entire website overhaul</p>
-            <p class="mono">Responsible for the implementation of a new CMS in 2023</p>
-            <p class="mono">Developed new interactive and animated homepage for fall campaigns</p>
+
+        <div class="card mb-4" id="cpi-card">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Hewlett Packard Enterprise</h4>
+            </div>
+            <div class="card-body">
+                <img src="./imgs/hpe-logo.png" alt="" class="we-section-2-img">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Responsible for entire website overhaul</li>
+                    <li>Responsible for the planning and implementation of a new .NET CMS</li>
+                    <li>Developed an interactive and animated homepage for future campaigns</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary" id="we-next-3">Next</button>
+            </div>
         </div>
+    </section>
+    <!---------->
+    <section class="skills-section flex-column">
+
     </section>
     <script src="./js/home.js"></script>
     

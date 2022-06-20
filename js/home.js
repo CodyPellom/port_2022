@@ -12,6 +12,9 @@ let introImg4 = document.getElementById('introImg4');
 let introImg5 = document.getElementById('introImg5');
 let introImg6 = document.getElementById('introImg6');
 let introImgText = document.getElementById('introImgTxt');
+let weNextBtn1 = document.getElementById('we-next-1');
+let weNextBtn2 = document.getElementById('we-next-2');
+let weNextBtn3 = document.getElementById('we-next-3');
 
 setInterval(function(){
     navbarHeader.classList = "major-mono";

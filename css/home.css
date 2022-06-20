@@ -59,6 +59,7 @@ body {
     color: white;
     font-size: 28px;
     transition: all 1s;
+    font-weight: 900;
 }
 
 .navbar-links {
@@ -170,28 +171,45 @@ body {
 .work-experience {
     width: 100%;
     height: 500px;
+    background: teal;
+}
+
+
+#applied-card {
+
+}
+
+#hpe-card {
+    display: none;
+}
+
+#cpi-card {
+    display: none;
+}
+
+.we-section-1-img {
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.we-section-2-img {
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.we-section-3-img {
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+/*---------------*/
+
+.skills-section {
+    width: 100%;
+    height: 500px;
     background-color: black;
-}
-
-.work-experience .weSectionBlock {
-    height: 325px;
-    width: 325px;
-    border: solid 2px red;
-    background-color: darkgray;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.work-experience .weSectionBlock h1 {
-    color: red;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-}
-
-.work-experience .weSectionBlock p {
-    color: red;
-    font-size: 12px;
-    text-align: center;
-    padding: 10px;
 }
